@@ -104,7 +104,7 @@ Configuration:
 Configuration:
 ```yaml
 - type: json_parser
-  if: '$matches "^{.*}$"'
+  if: body matches "^{.*}$"
 ```
 
 <table>
